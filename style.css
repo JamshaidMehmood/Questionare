@@ -1,0 +1,96 @@
+body
+{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.question-title
+{
+    background-color: coral;
+    color: goldenrod;
+    margin: 200px;
+    margin-bottom: 0;
+    letter-spacing: var(--spacing);
+    color: var(--clr-grey-1);
+    padding: 30px;
+    border-radius: 20px;
+}
+.p-btn 
+{
+    font-size: 1.5rem;
+    background: aqua;
+    border-color: var(--clr-gold);
+    cursor: pointer;
+    color: var(--clr-gold);
+    transition: var(--transition);
+}
+.n-btn 
+{
+    font-size: 1.5rem;
+    background: greenyellow;
+    border-color: var(--clr-gold);
+    cursor: pointer;
+    color: var(--clr-gold);
+    transition: var(--transition);
+}
+/* 
+.question-btn
+{
+    font-size: 1.5rem;
+    background-color: cyan;
+    border-color: var(--clr-gold);
+    cursor: pointer;
+    color: var(--clr-gold);
+    transition: var(--transition);
+    color: darkgoldenrod;
+} */
+.question-btn:hover
+{
+    transform: rotate(90deg);
+}
+.question-text
+{
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px solid rgba(0, 0,0, 0.2);
+}
+.question-text p
+{
+    margin-bottom: 0;
+    background-color: palegreen;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: large;
+    font-style: italic;
+}
+.title
+{
+    margin: 50px;
+    color: black;
+    font-size: xx-large;
+    font-family: fantasy;
+    font-style: oblique;
+}
+ /* for hiding text and buttons */
+
+ .question-text
+ {
+     display: none;
+ }
+ .show-text .question-text
+ {
+    display: block;
+ }
+.n-btn
+{
+    display: none;
+}
+.show-text .p-btn
+{
+    display: none;
+}
+.show-text .n-btn
+{
+    display: inline;
+}
